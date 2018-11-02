@@ -31,6 +31,13 @@ h1 {
     margin-bottom: 0;
 }
 
+h4 {
+    color: white;
+    background: #4aaaa5;
+    text-align: center;
+    padding: 10px;
+}
+
 .wrapper {
     width: 960px;
     margin: 0 auto;
@@ -97,6 +104,7 @@ textarea {
     width: 100%;
     margin: 10px 0;
     display: inline-block;
+    border-color: #ccc;
 }
 
 .Submit {
@@ -108,14 +116,59 @@ textarea {
     cursor: pointer;
 }
 
-.project1 {
+.portfolio-item {
+    background-color: #4aaaa5;
+    position: relative;
+    width: 30%;
+    margin: 0 20px 20px 0;
+    display: inline-block;
+    padding: 100px 0 15px 0;
+}
+
+#project1 {
+    background: url("../images/Grace-5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#project2 {
+    background: url("../images/Grace-5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#project3 {
+    background: url("../images/Grace-5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#project4 {
+    background: url("../images/Grace-5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#project5 {
+    background: url("../images/Grace-5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#project6 {
+    background: url("../images/Grace-5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* .project1 {
     background: url(../images/Grace-5.jpg);
     float: left;
     padding: 20px;
     margin-bottom: 20px;
     color: #fff;
     background-color: #4aaaa5;
-}
+} */
 
 #Box {
     background-color: #fff;
